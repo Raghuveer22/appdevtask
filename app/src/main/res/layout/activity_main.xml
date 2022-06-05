@@ -18,7 +18,7 @@
      android:layout_marginBottom="16dp"
      android:background="@color/deep_purple"
      app:iconifiedByDefault="false"
-     app:queryHint="Search Notes..." />
+     app:queryHint="Search Ideas..." />
 
  <androidx.recyclerview.widget.RecyclerView
      android:id="@+id/recycler_home"
