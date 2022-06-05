@@ -52,7 +52,7 @@ boolean isOldNote =false;
                 }
                 else {
                     //we can change here also used to format
-                    SimpleDateFormat formatter = new SimpleDateFormat("EEE, d MMM yyyy HH:mm a");
+                    SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yy");
                     Date date = new Date();
                     if(!isOldNote)
                     {

@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
     private void updateRecycler(List<Notes> notes) {
         recyclerView.setHasFixedSize(true);
         //changing the value 2 to 1 we could have grid layout
-        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL));
+        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(1, LinearLayoutManager.VERTICAL));
         notesListAdapter = new NotesListAdapter(MainActivity.this,notes,notesClickListener);
         recyclerView.setAdapter(notesListAdapter);
 
